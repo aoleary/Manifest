@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/lge/g3-common" name="aoleary/android_device_lge_g3-common_Oreo" remote="github" revision="8.0" />
+  <project path="kernel/lge/g3" name="aoleary/Artx-II_g3_Oreo" remote="github" revision="v3.2" />
+  <project path="device/lge/d855" name="aoleary/android_device_lge_d855_Oreo" remote="github" revision="screwd" />
+  <project path="vendor/lge" name="aoleary/proprietary_vendor_lge_Oreo" remote="github" revision="8.0" />
+  <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="lineage-15.0-caf" />
+</manifest>
