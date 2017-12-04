@@ -1,5 +1,5 @@
 <manifest>
-  <project path="device/lge/d855" name="aoleary/android_device_lge_d855_Oreo" remote="github" revision="du" />
+  <project path="device/lge/d855" name="aoleary/android_device_lge_d855_Oreo" remote="github" revision="n2" />
   <project path="kernel/lge/g3" name="Artx-II/kernel_lge_g3_oreo" remote="github" revision="v4.0" />
   <project path="device/lge/g3-common" name="aoleary/android_device_lge_g3-common_Oreo" remote="github" revision="8.0" />
   <project path="vendor/lge" name="aoleary/proprietary_vendor_lge_Oreo" remote="github" revision="8.0" />
