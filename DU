@@ -4,7 +4,7 @@
   <project path="device/lge/d850" name="crdroid-devices/android_device_lge_d850" remote="github" revision="8.1" />
   <project path="device/lge/d851" name="crdroid-devices/android_device_lge_d851" remote="github" revision="8.1" />
   <project path="device/lge/d852" name="crdroid-devices/android_device_lge_d852" remote="github" revision="8.1" />
-  <project path="device/lge/d855" name="aoleary/android_device_lge_d855" remote="github" revision="cypherOS" />
+  <project path="device/lge/d855" name="aoleary/android_device_lge_d855" remote="github" revision="du" />
   <project path="device/lge/ls990" name="crdroid-devices/android_device_lge_ls990" remote="github" revision="8.1" />
   <project path="device/lge/vs985" name="crdroid-devices/android_device_lge_vs985" remote="github" revision="8.1" />
   <project path="device/lge/g3-common" name="crdroid-devices/android_device_lge_g3-common" remote="github" revision="8.1" />
