@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <project path="device/lge/g3-common" name="aoleary/android_device_lge_g3-common_Oreo" remote="github" revision="du" />
- <project path="kernel/lge/g3" name="Artx-II/kernel_lge_g3_oreo" remote="github" revision="v4.0" />
- <project path="device/lge/d855" name="aoleary/android_device_lge_d855_Oreo" remote="github" revision="du" />
- <project path="vendor/lge" name="aoleary/proprietary_vendor_lge_Oreo" remote="github" revision="8.0" />
- <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="lineage-15.0-caf" />
- <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="lineage-15.0-caf" />
- <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.0" />
+  <project path="kernel/lge/g3" name="Artx-II/kernel_lge_g3_oreo" remote="github" revision="v5.0-Oreo8.1" />
+  <project path="device/lge/d850" name="crdroid-devices/android_device_lge_d850" remote="github" revision="8.1" />
+  <project path="device/lge/d851" name="crdroid-devices/android_device_lge_d851" remote="github" revision="8.1" />
+  <project path="device/lge/d852" name="crdroid-devices/android_device_lge_d852" remote="github" revision="8.1" />
+  <project path="device/lge/d855" name="aoleary/android_device_lge_d855" remote="github" revision="cypherOS" />
+  <project path="device/lge/ls990" name="crdroid-devices/android_device_lge_ls990" remote="github" revision="8.1" />
+  <project path="device/lge/vs985" name="crdroid-devices/android_device_lge_vs985" remote="github" revision="8.1" />
+  <project path="device/lge/g3-common" name="crdroid-devices/android_device_lge_g3-common" remote="github" revision="8.1" />
+  <project path="vendor/lge" name="crdroid-devices/proprietary_vendor_lge" remote="github" revision="8.1" />
 </manifest>
