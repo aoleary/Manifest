@@ -4,7 +4,7 @@
 <!-- Device -->
   <project path="device/lge/d855" name="G3-Development/android_device_lge_d855" remote="github" revision="8.1" />
   <project path="device/lge/d851" name="G3-Development/android_device_lge_d851" remote="github" revision="8.1" />
-  <project path="device/lge/g3-common" name="G3-Development/android_device_lge_g3-common" remote="github" revision="du" />
+  <project path="device/lge/g3-common" name="aoleary/android_device_lge_g3-common" remote="github" revision="du" />
 
 <!-- Kernel -->
   <project path="kernel/lge/g3" name="G3-Development/android_kernel_lge_g3" remote="github" revision="8.1" />
