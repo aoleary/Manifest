@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="kernel/lge/g3" name="ppajda/kernel_g3" remote="github" revision="los-15.1" />
+
+<!-- Device -->
   <project path="device/lge/d855" name="G3-Development/android_device_lge_d855" remote="github" revision="8.1" />
-  <project path="device/lge/g3-common" name=" G3-Development/android_device_lge_g3-common " remote="github" revision="8.1" />
+  <project path="device/lge/d851" name="G3-Development/android_device_lge_d851" remote="github" revision="8.1" />
+  <project path="device/lge/g3-common" name="G3-Development/android_device_lge_g3-common" remote="github" revision="du" />
+
+<!-- Kernel -->
+  <project path="kernel/lge/g3" name="G3-Development/android_kernel_lge_g3" remote="github" revision="8.1" />
+
+<!-- Vendor -->
   <project path="vendor/lge" name="crdroid-devices/proprietary_vendor_lge" remote="github" revision="8.1" />
+
+<!-- Dependencies -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
   <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_media" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8974" 
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="staging/lineage-15.1-caf-8974" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="staging/lineage-15.1" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="staging/lineage-15.1-caf-8974" />
 </manifest>
