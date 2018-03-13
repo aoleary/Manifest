@@ -14,12 +14,19 @@
 <!-- Dependencies -->
   <remove-project name="android_device_qcom_sepolicy" />
   <remove-project name="android_hardware_qcom_bt" />
+  <remove-project name="android_hardware_ril" />
+  <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="android_packages_apps_telephony" />
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_hardware_qcom_display" />
   <project path="device/qcom/sepolicy" name="Atomic-OS/platform_device_qcom_sepolicy" remote="github" revision="oreo" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-15.1-caf" />
+  <project path="hardware/ril" name="CypherOS/hardware_ril" remote="github" revision="oreo-mr1-release" />
+  <project path="hardware/ril-caf" name="CypherOS/hardware_ril" remote="github" revision="oreo-mr1-release-caf" />
+  <project path="frameworks/opt/telephony" name="CypherOS/frameworks_opt_telephony" remote="github" revision="oreo-mr1-release" />
+  <project path="packages/apps/telephony" name="CypherOS/packages_apps_telephony" remote="github" revision="oreo-mr1-release" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8974" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1" />
