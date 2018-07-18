@@ -2,29 +2,37 @@
 <manifest>
 <!-- Device -->
   <project path="device/lge/d851" name="G3-Development/android_device_lge_d851" remote="github" revision="8.1" />
-  <project path="device/lge/d855" name="aoleary/android_device_lge_d855_m" remote="github" revision="du" />
-  <project path="device/lge/g3-common" name="G3-Development/android_device_lge_g3-common" remote="github" revision="8.1" />
+  <project path="device/lge/d855" name="aoleary/android_device_lge_d855_crdroid" remote="github" revision="du" />
+  <project path="device/lge/g3-common" name="aoleary/android_device_lge_g3-common_crdroid" remote="github" revision="du" />
 
 <!-- Kernel -->
-  <project path="kernel/lge/g3" name="G3-Development/android_kernel_lge_g3" remote="github" revision="8.1" />
+  <project path="kernel/lge/g3" name="crdroidandroid/android_kernel_lge_g3" remote="github" revision="8.1" />
 
 <!-- Vendor -->
-  <project path="vendor/lge" name="crdroid-devices/proprietary_vendor_lge" remote="github" revision="8.1" />
+  <project path="vendor/lge" name="aoleary/proprietary_vendor_lge_crdroid" remote="github" revision="8.1" />
 
 <!-- Dependencies -->
-  <remove-project name="android_device_qcom_sepolicy" />
   <remove-project name="android_hardware_qcom_bt" />
   <remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_hardware_qcom_display" />
-  <project path="device/qcom/sepolicy" name="Atomic-OS/platform_device_qcom_sepolicy" remote="github" revision="oreo" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-15.1" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="android_packages_services_Telephony" />
+  <remove-project name="android_vendor_du" />
+  <remove-project name="android_vendor_extras" />
+  <remove-project name="android_hardware_qcom_keymaster" />
+  <project path="hardware/qcom/bt" name="CypherOS/hardware_qcom_bt" remote="github" revision="parfait-release" />
+  <project path="hardware/qcom/bt-caf" name="CypherOS/hardware_qcom_bt" remote="github" revision="parfait-release-caf" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8974" />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1" />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8974" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8974" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8974" />
+  <project path="frameworks/opt/telephony" name="CypherOS/frameworks_opt_telephony" remote="github" revision="parfait-release" />
+  <project path="packages/services/Telephony" name="CypherOS/packages_services_Telephony" remote="github" revision="parfait-release" />
+  <project path="vendor/du" name="aoleary/android_vendor_du" remote="github" revision="o8x" />
+  <project path="vendor/extras" name="aoleary/android_vendor_extras" remote="github" revision="o8x" />
+  <project path="hardware/qcom/keymaster" name="aoleary/android_hardware_qcom_keymaster" remote="github" revision="o8x" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
 </manifest>
