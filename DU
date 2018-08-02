@@ -2,14 +2,14 @@
 <manifest>
 <!-- Device -->
   <project path="device/lge/d851" name="G3-Development/android_device_lge_d851" remote="github" revision="8.1" />
-  <project path="device/lge/d855" name="aoleary/android_device_lge_d855_crdroid" remote="github" revision="du" />
-  <project path="device/lge/g3-common" name="aoleary/android_device_lge_g3-common_crdroid" remote="github" revision="du" />
+  <project path="device/lge/d855" name="aoleary/android_device_lge_d855" remote="github" revision="du" />
+  <project path="device/lge/g3-common" name="theKramer77/android_device_lge_g3-common_crdroid" remote="github" revision="du" />
 
 <!-- Kernel -->
-  <project path="kernel/lge/g3" name="crdroidandroid/android_kernel_lge_g3" remote="github" revision="8.1" />
+  <project path="kernel/lge/g3" name="ppajda/kernel_g3" remote="github" revision="los-15.1" />
 
 <!-- Vendor -->
-  <project path="vendor/lge" name="aoleary/proprietary_vendor_lge_crdroid" remote="github" revision="8.1" />
+  <project path="vendor/lge" name="crdroidandroid/proprietary_vendor_lge" remote="github" revision="8.1" />
 
 <!-- Dependencies -->
   <remove-project name="android_hardware_qcom_bt" />
@@ -35,4 +35,5 @@
   <project path="vendor/extras" name="aoleary/android_vendor_extras" remote="github" revision="o8x" />
   <project path="hardware/qcom/keymaster" name="aoleary/android_hardware_qcom_keymaster" remote="github" revision="o8x" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
+
 </manifest>
