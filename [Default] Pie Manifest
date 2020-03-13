@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aoleary"
+           fetch="https://github.com/aoleary/"
+           revision="pie" />
+
+<!-- Device -->
+  <project name="device_lge_h811" path="device/lge/h811" remote="aoleary" />
+  <project name="device_lge_h815" path="device/lge/h815" remote="aoleary" />
+
+<!-- Common Tree -->
+  <project name="device_lge_g4-common" path="device/lge/g4-common" remote="aoleary" />
+
+<!-- Kernel -->
+ <project name="G4-Titan-Kernel" path="kernel/lge/msm8992" remote="aoleary" />
+
+<!-- Vendor -->
+  <project path="vendor/lge" name="vendor_lge" remote="aoleary" />
+
+</manifest>
