@@ -17,4 +17,14 @@
 <!-- Vendor -->
   <project path="vendor/lge" name="vendor_lge" remote="aoleary" />
 
+<!-- Remove data-ipa-cfg-mgr -->
+  <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" groups="qcom,pdk-qcom" />
+
+<!-- Use our LIBBT -->
+  <remove-project name="android_hardware_broadcom_libbt" />
+  <project path="hardware/broadcom/libbt" name="Suicide-Squirrel/android_hardware_broadcom_libbt" remote="github" revision="lineage-16.0" />
+
+<!-- Sync softap -->
+  <project path="system/qcom" name="HexagonRom/system_qcom.git" remote="github" revision="pie" />
+  
 </manifest>
