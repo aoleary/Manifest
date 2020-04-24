@@ -26,5 +26,9 @@
 
 <!-- Sync softap -->
   <project path="system/qcom" name="HexagonRom/system_qcom.git" remote="github" revision="pie" />
-  
+
+<!-- Use our Power repo -->
+  <remove-project name="android_hardware_qcom_power" />
+  <project path="hardware/qcom/power" name="Suicide-Squirrel/android_hardware_qcom_power" remote="github" revision="lineage-16.0_synced" />
+
 </manifest>
